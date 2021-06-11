@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,26 @@
 		A0650A03267222C50028889D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0650A02267222C50028889D /* Assets.xcassets */; };
 		A0650A06267222C50028889D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0650A05267222C50028889D /* Preview Assets.xcassets */; };
 		A0650A09267222C50028889D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0650A07267222C50028889D /* LaunchScreen.storyboard */; };
+		A0650A2326723B3C0028889D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A2226723B3C0028889D /* NetworkManager.swift */; };
+		A0650A2826723C8F0028889D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A0650A2726723C8F0028889D /* Alamofire */; };
+		A0650A2B26723CCA0028889D /* INetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A2A26723CCA0028889D /* INetworkManager.swift */; };
+		A0650A2E26723D270028889D /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A2D26723D270028889D /* NetworkConfig.swift */; };
+		A0650A32267244760028889D /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A31267244760028889D /* BaseResponse.swift */; };
+		A0650A36267244900028889D /* BaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A35267244900028889D /* BaseError.swift */; };
+		A0650A3C26724E6A0028889D /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A3B26724E6A0028889D /* NetworkService.swift */; };
+		A0650A4026724EBB0028889D /* NetworkPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A3F26724EBB0028889D /* NetworkPath.swift */; };
+		A0650A4326724ECD0028889D /* NetworkMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A4226724ECD0028889D /* NetworkMethod.swift */; };
+		A0650A4626724EDC0028889D /* ProjectError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A4526724EDC0028889D /* ProjectError.swift */; };
+		A0650A4926724EEA0028889D /* ErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A4826724EEA0028889D /* ErrorMessages.swift */; };
+		A0650A50267254740028889D /* LaunchSpaceX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A4F267254740028889D /* LaunchSpaceX.swift */; };
+		A0650A532672548A0028889D /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A522672548A0028889D /* Rocket.swift */; };
+		A0650A56267254B80028889D /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A55267254B80028889D /* Link.swift */; };
+		A0650A59267264750028889D /* SpaceXService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A58267264750028889D /* SpaceXService.swift */; };
+		A0650A5C26726DB70028889D /* LaunchModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A5B26726DB70028889D /* LaunchModelView.swift */; };
+		A0650A63267272030028889D /* LaunchsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A62267272030028889D /* LaunchsView.swift */; };
+		A0650A66267273B50028889D /* LaunchDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A65267273B50028889D /* LaunchDetailsView.swift */; };
+		A0650A692672741A0028889D /* LaunchCardWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0650A682672741A0028889D /* LaunchCardWidget.swift */; };
+		A0650A6D267275510028889D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A0650A6C267275510028889D /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +44,24 @@
 		A0650A05267222C50028889D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0650A08267222C50028889D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0650A0A267222C50028889D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0650A2226723B3C0028889D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A0650A2A26723CCA0028889D /* INetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = INetworkManager.swift; sourceTree = "<group>"; };
+		A0650A2D26723D270028889D /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		A0650A31267244760028889D /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		A0650A35267244900028889D /* BaseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseError.swift; sourceTree = "<group>"; };
+		A0650A3B26724E6A0028889D /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		A0650A3F26724EBB0028889D /* NetworkPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPath.swift; sourceTree = "<group>"; };
+		A0650A4226724ECD0028889D /* NetworkMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMethod.swift; sourceTree = "<group>"; };
+		A0650A4526724EDC0028889D /* ProjectError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectError.swift; sourceTree = "<group>"; };
+		A0650A4826724EEA0028889D /* ErrorMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessages.swift; sourceTree = "<group>"; };
+		A0650A4F267254740028889D /* LaunchSpaceX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSpaceX.swift; sourceTree = "<group>"; };
+		A0650A522672548A0028889D /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
+		A0650A55267254B80028889D /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		A0650A58267264750028889D /* SpaceXService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceXService.swift; sourceTree = "<group>"; };
+		A0650A5B26726DB70028889D /* LaunchModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchModelView.swift; sourceTree = "<group>"; };
+		A0650A62267272030028889D /* LaunchsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchsView.swift; sourceTree = "<group>"; };
+		A0650A65267273B50028889D /* LaunchDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchDetailsView.swift; sourceTree = "<group>"; };
+		A0650A682672741A0028889D /* LaunchCardWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCardWidget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0650A6D267275510028889D /* Kingfisher in Frameworks */,
+				A0650A2826723C8F0028889D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,10 +96,10 @@
 		A06509FB267222C30028889D /* SwiftUI-SpaceXMVVM */ = {
 			isa = PBXGroup;
 			children = (
-				A06509FC267222C30028889D /* AppDelegate.swift */,
-				A06509FE267222C30028889D /* SceneDelegate.swift */,
+				A0650A1126722BA50028889D /* Core */,
+				A0650A1226722BAB0028889D /* Product */,
+				A0650A1326722BB10028889D /* Features */,
 				A0650A00267222C30028889D /* ContentView.swift */,
-				A0650A02267222C50028889D /* Assets.xcassets */,
 				A0650A07267222C50028889D /* LaunchScreen.storyboard */,
 				A0650A0A267222C50028889D /* Info.plist */,
 				A0650A04267222C50028889D /* Preview Content */,
@@ -73,6 +113,144 @@
 				A0650A05267222C50028889D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0650A1126722BA50028889D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A0650A1E26722C660028889D /* Resources */,
+				A0650A1D26722C5E0028889D /* Initialize */,
+				A0650A1C26722C580028889D /* Widget */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A0650A1226722BAB0028889D /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				A0650A3A26724E410028889D /* Service */,
+				A0650A3926724E3B0028889D /* Widget */,
+				A0650A3826724E350028889D /* Enum */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		A0650A1326722BB10028889D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A0650A1726722C0E0028889D /* Network */,
+				A0650A1426722BEC0028889D /* Model */,
+				A0650A1626722C000028889D /* ModelView */,
+				A0650A1526722BF20028889D /* View */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A0650A1426722BEC0028889D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0650A4F267254740028889D /* LaunchSpaceX.swift */,
+				A0650A522672548A0028889D /* Rocket.swift */,
+				A0650A55267254B80028889D /* Link.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0650A1526722BF20028889D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0650A62267272030028889D /* LaunchsView.swift */,
+				A0650A65267273B50028889D /* LaunchDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A0650A1626722C000028889D /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				A0650A5B26726DB70028889D /* LaunchModelView.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		A0650A1726722C0E0028889D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A0650A58267264750028889D /* SpaceXService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A0650A1C26722C580028889D /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		A0650A1D26722C5E0028889D /* Initialize */ = {
+			isa = PBXGroup;
+			children = (
+				A06509FC267222C30028889D /* AppDelegate.swift */,
+				A06509FE267222C30028889D /* SceneDelegate.swift */,
+				A0650A2026723A150028889D /* Network */,
+			);
+			path = Initialize;
+			sourceTree = "<group>";
+		};
+		A0650A1E26722C660028889D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0650A02267222C50028889D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A0650A2026723A150028889D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A0650A2126723A1B0028889D /* Model */,
+				A0650A2226723B3C0028889D /* NetworkManager.swift */,
+				A0650A2A26723CCA0028889D /* INetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A0650A2126723A1B0028889D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0650A2D26723D270028889D /* NetworkConfig.swift */,
+				A0650A31267244760028889D /* BaseResponse.swift */,
+				A0650A35267244900028889D /* BaseError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0650A3826724E350028889D /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				A0650A3F26724EBB0028889D /* NetworkPath.swift */,
+				A0650A4226724ECD0028889D /* NetworkMethod.swift */,
+				A0650A4526724EDC0028889D /* ProjectError.swift */,
+				A0650A4826724EEA0028889D /* ErrorMessages.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		A0650A3926724E3B0028889D /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				A0650A682672741A0028889D /* LaunchCardWidget.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		A0650A3A26724E410028889D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A0650A3B26724E6A0028889D /* NetworkService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +269,10 @@
 			dependencies = (
 			);
 			name = "SwiftUI-SpaceXMVVM";
+			packageProductDependencies = (
+				A0650A2726723C8F0028889D /* Alamofire */,
+				A0650A6C267275510028889D /* Kingfisher */,
+			);
 			productName = "SwiftUI-SpaceXMVVM";
 			productReference = A06509F9267222C30028889D /* SwiftUI-SpaceXMVVM.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +300,10 @@
 				Base,
 			);
 			mainGroup = A06509F0267222C30028889D;
+			packageReferences = (
+				A0650A2626723C8F0028889D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A0650A6B267275510028889D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = A06509FA267222C30028889D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -145,9 +331,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0650A56267254B80028889D /* Link.swift in Sources */,
+				A0650A59267264750028889D /* SpaceXService.swift in Sources */,
+				A0650A66267273B50028889D /* LaunchDetailsView.swift in Sources */,
+				A0650A4326724ECD0028889D /* NetworkMethod.swift in Sources */,
+				A0650A2326723B3C0028889D /* NetworkManager.swift in Sources */,
+				A0650A4626724EDC0028889D /* ProjectError.swift in Sources */,
+				A0650A50267254740028889D /* LaunchSpaceX.swift in Sources */,
+				A0650A4026724EBB0028889D /* NetworkPath.swift in Sources */,
+				A0650A2B26723CCA0028889D /* INetworkManager.swift in Sources */,
+				A0650A63267272030028889D /* LaunchsView.swift in Sources */,
+				A0650A2E26723D270028889D /* NetworkConfig.swift in Sources */,
+				A0650A692672741A0028889D /* LaunchCardWidget.swift in Sources */,
 				A06509FD267222C30028889D /* AppDelegate.swift in Sources */,
+				A0650A3C26724E6A0028889D /* NetworkService.swift in Sources */,
+				A0650A4926724EEA0028889D /* ErrorMessages.swift in Sources */,
+				A0650A5C26726DB70028889D /* LaunchModelView.swift in Sources */,
+				A0650A32267244760028889D /* BaseResponse.swift in Sources */,
 				A06509FF267222C30028889D /* SceneDelegate.swift in Sources */,
 				A0650A01267222C30028889D /* ContentView.swift in Sources */,
+				A0650A36267244900028889D /* BaseError.swift in Sources */,
+				A0650A532672548A0028889D /* Rocket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +492,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-SpaceXMVVM/Preview Content\"";
+				DEVELOPMENT_TEAM = G42CZF7XRZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-SpaceXMVVM/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,6 +513,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-SpaceXMVVM/Preview Content\"";
+				DEVELOPMENT_TEAM = G42CZF7XRZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "SwiftUI-SpaceXMVVM/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -343,6 +549,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A0650A2626723C8F0028889D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+		A0650A6B267275510028889D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A0650A2726723C8F0028889D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0650A2626723C8F0028889D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A0650A6C267275510028889D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0650A6B267275510028889D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A06509F1267222C30028889D /* Project object */;
 }
